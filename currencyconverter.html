@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="currencyconverter.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Currency Converter</h1>
+
+    <!-- Amount -->
+    <div class="amount">
+        
+        <label>Enter Amount</label>
+        <input type="number" value="1" min="1">
+    </div>
+
+    <!-- Currency Selection -->
+    <div class="dropdown">
+
+        <!-- From -->
+        <div class="from">
+
+            <p>From</p>
+
+            <div class="select-container">
+
+                <img src="https://flagsapi.com/US/flat/64.png">
+
+                <select name="from"></select>
+
+            </div>
+
+        </div>
+
+        <!-- Swap Button -->
+
+        <div class="icon">
+
+            <i class="fa-solid fa-right-left"></i>
+
+        </div>
+
+        <!-- To -->
+
+        <div class="to">
+
+            <p>To</p>
+
+            <div class="select-container">
+
+                <img src="https://flagsapi.com/PK/flat/64.png">
+
+                <select name="to"></select>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Exchange Rate -->
+
+    <div class="msg">
+
+        1 USD = 278 PKR
+
+    </div>
+
+    <!-- Convert Button -->
+
+    <button>
+
+        Get Exchange Rate
+
+    </button>
+
+</div>
+
+<script src="countrylist.js"></script>
+<script src="currencyconerter.js"></script>
+
+</body>
+</html>
