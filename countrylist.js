@@ -98,7 +98,7 @@ const countryList = {
   MXN: "MX",
   MYR: "MY",
   MZN: "MZ",
-    NAD: "NA",
+  NAD: "NA",
   NGN: "NG",
   NIO: "NI",
   NOK: "NO",
