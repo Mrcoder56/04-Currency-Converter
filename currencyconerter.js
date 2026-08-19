@@ -22,7 +22,7 @@ for (let select of dropdowns) {
         select.appendChild(option);
     }
 
-    select.addEventListener("change", (evt) => {
+    select.addEventListener("Change", (evt) => {
         updateFlag(evt.target);
     });
 }
