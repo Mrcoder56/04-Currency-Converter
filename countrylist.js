@@ -12,7 +12,7 @@ const countryList = {
   BAM: "BA",
   BBD: "BB",
   BDT: "BD",
-  BGN: "BG",
+  BGN: "BGN",
   BHD: "BH",
   BIF: "BI",
   BMD: "BM",
